@@ -1,0 +1,27 @@
+html,
+body {
+  
+  padding: 0;
+  margin: 0;
+  font-family: League-Gothic;
+    
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: rgb(186, 59, 59);
+    background: rgb(187, 187, 187);
+  }
+}
